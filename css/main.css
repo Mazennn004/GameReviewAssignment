@@ -1,0 +1,33 @@
+body{
+    overflow-x:hidden ;
+}
+.bg-reviews{
+    background-color: #3A497B !important;
+}
+.active{
+   color: #256698 !important; 
+}
+.nav-link{
+    transition: all 0.5s;
+}
+.nav-link:hover{
+    color: #256698;
+    
+}
+.wrapper{
+    height:20vh;
+}
+.img-wrapper{
+    height:20vh;
+    object-fit: cover;
+}
+ 
+.game-card{
+    transition:all 0.5s ;
+}
+.game-card:hover{
+    transform: scale(105%);
+}
+.big-z{
+    z-index: 99;
+}
